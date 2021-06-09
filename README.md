@@ -1,26 +1,28 @@
-# README
+View client-side repo [here](https://github.com/rsabur/booker-client).
 
-"Initial Commit"
+# DJ Booker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web app designed to make life easier for the event planner in mind. Users can browse DJs by price in ascending and descending order, as well as, search by name. A user can select a DJ to find out more, listen to their music from Spotify and book them for an event. From the profile page, a user can edit and delete their profile.
+_______________________________________________________________________________________
+## Key Technologies, Packages, and Gems
 
-Things you may want to cover:
+* Frontend
+    * React.js
+    * Semantic UI
+    * Custom stylesheet
 
-* Ruby version
+* Backend
+    * Rails 5 API
+    * Postgres database
 
-* System dependencies
+## Core Features
+* A user can login to their existing account or signup for a new account
+* Users can browse the list of DJs
+* Users can search DJs by name
+* From DJ show page, a user can view information about the selected DJ and listen to their music from Spotify 
+* From DJ show page, a user can book a DJ for an upcoming event
+* On a profile page, users can edit and delete their profile
+_______________________________________________________________________________________
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Demo
+[![djbooker demo](https://i.imgur.com/AmbJ29V.png)](https://youtu.be/OCFuPYOnDBk)
